@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h1 Hello Boulder!
+
+
+block form
+	form(method="post" action='/formsubmit')
+		input(name= 'email' type='email')
+		input(type='submit')
